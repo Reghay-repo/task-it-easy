@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    --accent: 5, 150, 105;
+    --accent-hover: 4, 120, 87;
+}
+
+body.theme-accent-blue {
+    --accent: 37, 99, 235;
+    --accent-hover: 29, 78, 216;
+}
+
+body.theme-accent-red {
+    --accent: 220, 38, 38;
+    --accent-hover: 185, 28, 28;
+}
+
+body.theme-accent-orange {
+    --accent: 234, 88, 12;
+    --accent-hover: 194, 65, 12;
+}
+
+body.theme-light {
+    --text-color-base: 0, 0, 0;
+    --text-color-muted: 156, 163, 175;
+    --text-color-secondary: 75, 85, 99;
+    --text-color-secondary-hover: 55, 65, 81;
+
+    --border-color: 209, 213, 219;
+    --border-color-secondary: 156, 163, 175;
+
+    --bg-base: 255, 255, 255;
+    --bg-secondary: 249, 250, 251;
+    --bg-base-background: 243, 243, 243;
+    --bg-secondary-hover: 235, 235, 235;
+}
+
+body.theme-dark {
+    --text-color-base: 255, 255, 255;
+    --text-color-muted: 156, 163, 175;
+    --text-color-secondary: 163, 163, 163;
+    --text-color-secondary-hover: 212, 212, 212;
+
+    --border-color: 40, 40, 40;
+    --border-color-secondary: 55, 55, 55;
+
+    --bg-base: 23, 23, 23;
+    --bg-base-background: 30, 30, 30;
+    --bg-secondary: 38, 38, 38;
+    --bg-secondary-hover: 53, 53, 53;
+}
+
+body.theme-black {
+    --text-color-base: 255, 255, 255;
+    --text-color-muted: 156, 163, 175;
+    --text-color-secondary: 163, 163, 163;
+    --text-color-secondary-hover: 212, 212, 212;
+
+    --border-color: 40, 40, 40;
+    --border-color-secondary: 52, 52, 52;
+
+    --bg-base: 0, 0, 0;
+    --bg-base-background: 8, 8, 8;
+    --bg-secondary: 23, 23, 23;
+    --bg-secondary-hover: 38, 38, 38;
+}
+
+.no-scrollbars::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+@layer base {
+    [data-nextjs-scroll-focus-boundary] {
+        display: contents;
+    }
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"] {
+        -webkit-appearance: none;
+        margin: 0;
+        -moz-appearance: textfield !important;
+    }
+
+    html {
+        font-family: "Segoe UI Local", "Segoe UI Web (West European)", Arial, Helvetica, sans-serif;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Local";
+        src: local("Segoe UI Light");
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Local";
+        src: local("Segoe UI Semilight");
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Local";
+        src: local("Segoe UI");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Local";
+        src: local("Segoe UI Semibold");
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Web (West European)";
+        src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2") format("woff2"),
+            url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff") format("woff");
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Web (West European)";
+        src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2") format("woff2"),
+            url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff") format("woff");
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Web (West European)";
+        src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2") format("woff2"),
+            url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Segoe UI Web (West European)";
+        src: url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2") format("woff2"),
+            url("https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff") format("woff");
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @layer components {
+        .tooltip {
+            @apply invisible absolute left-full inline-block whitespace-nowrap rounded-lg bg-gray-900 p-1 text-sm font-medium text-white opacity-0 shadow-sm transition-opacity duration-300 group-hover:visible group-hover:opacity-100;
+        }
+
+        .bg-animation {
+            @apply transition-colors duration-200 ease-linear;
+        }
+
+        .button {
+            @apply bg-animation rounded-md px-3 py-1 font-semibold text-white;
+        }
+
+        .primary {
+            @apply bg-skin-accent hover:bg-skin-accenthover;
+        }
+
+        .secondary {
+            @apply bg-skin-secondary text-skin-base hover:bg-skin-secondaryhover hover:text-skin-secondaryhover;
+        }
+
+        .danger {
+            @apply bg-red-600 hover:bg-red-700;
+        }
+
+        .side-nav-button {
+            @apply bg-animation flex flex-row items-center space-x-2 rounded-lg px-3 py-1 text-gray-600 outline-none hover:bg-skin-secondaryhover;
+        }
+
+        .label {
+            @apply text-sm font-semibold tracking-wide text-skin-base;
+        }
+
+        .input {
+            @apply rounded-sm border-none border-skin-base bg-transparent text-skin-secondary focus:border-none focus:text-skin-base focus:ring-0;
+        }
+
+        .opacity-animation {
+            @apply opacity-60 transition-opacity duration-200 ease-linear hover:opacity-100;
+        }
+
+        .link {
+            @apply bg-animation font-semibold text-skin-secondary hover:text-skin-secondaryhover hover:underline;
+        }
+
+        .over-text {
+            @apply whitespace-nowrap rounded-sm bg-skin-secondary p-1 text-sm;
+        }
+
+        .x-button {
+            @apply rounded-md px-2 py-1 text-skin-muted focus:outline-none hover:bg-skin-secondary hover:text-skin-secondaryhover;
+        }
+        /* ... */
+    }
+}

@@ -1,0 +1,602 @@
+[
+    {
+        "name": "grinning face",
+        "char": "😀",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "grinning face with big eyes",
+        "char": "😃",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "grinning face with smiling eyes",
+        "char": "😄",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "beaming face with smiling eyes",
+        "char": "😁",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "grinning squinting face",
+        "char": "😆",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "grinning face with sweat",
+        "char": "😅",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "rolling on the floor laughing",
+        "char": "🤣",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "face with tears of joy",
+        "char": "😂",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "slightly smiling face",
+        "char": "🙂",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "upside-down face",
+        "char": "🙃",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "melting face",
+        "char": "🫠",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "winking face",
+        "char": "😉",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "smiling face with smiling eyes",
+        "char": "😊",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "smiling face with halo",
+        "char": "😇",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "smiling face with hearts",
+        "char": "🥰",
+        "group": "Smileys & Emotion"
+    },
+    {
+        "name": "monkey face",
+        "char": "🐵",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "monkey",
+        "char": "🐒",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "gorilla",
+        "char": "🦍",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "orangutan",
+        "char": "🦧",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "dog face",
+        "char": "🐶",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "dog",
+        "char": "🐕",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "guide dog",
+        "char": "🦮",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "service dog",
+        "char": "🐕‍🦺",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "poodle",
+        "char": "🐩",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "wolf",
+        "char": "🐺",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "fox",
+        "char": "🦊",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "raccoon",
+        "char": "🦝",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "cat face",
+        "char": "🐱",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "cat",
+        "char": "🐈",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "black cat",
+        "char": "🐈‍⬛",
+        "group": "Animals & Nature"
+    },
+    {
+        "name": "chequered flag",
+        "char": "🏁",
+        "group": "Flags"
+    },
+    {
+        "name": "triangular flag",
+        "char": "🚩",
+        "group": "Flags"
+    },
+    {
+        "name": "crossed flags",
+        "char": "🎌",
+        "group": "Flags"
+    },
+    {
+        "name": "black flag",
+        "char": "🏴",
+        "group": "Flags"
+    },
+    {
+        "name": "white flag",
+        "char": "🏳️",
+        "group": "Flags"
+    },
+    {
+        "name": "white flag",
+        "char": "🏳",
+        "group": "Flags"
+    },
+    {
+        "name": "rainbow flag",
+        "char": "🏳️‍🌈",
+        "group": "Flags"
+    },
+    {
+        "name": "rainbow flag",
+        "char": "🏳‍🌈",
+        "group": "Flags"
+    },
+    {
+        "name": "transgender flag",
+        "char": "🏳️‍⚧️",
+        "group": "Flags"
+    },
+    {
+        "name": "transgender flag",
+        "char": "🏳‍⚧️",
+        "group": "Flags"
+    },
+    {
+        "name": "transgender flag",
+        "char": "🏳️‍⚧",
+        "group": "Flags"
+    },
+    {
+        "name": "transgender flag",
+        "char": "🏳‍⚧",
+        "group": "Flags"
+    },
+    {
+        "name": "pirate flag",
+        "char": "🏴‍☠️",
+        "group": "Flags"
+    },
+    {
+        "name": "pirate flag",
+        "char": "🏴‍☠",
+        "group": "Flags"
+    },
+    {
+        "name": "flag: Ascension Island",
+        "char": "🇦🇨",
+        "group": "Flags"
+    },
+    {
+        "name": "grapes",
+        "char": "🍇",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "melon",
+        "char": "🍈",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "watermelon",
+        "char": "🍉",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "tangerine",
+        "char": "🍊",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "lemon",
+        "char": "🍋",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "banana",
+        "char": "🍌",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "pineapple",
+        "char": "🍍",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "mango",
+        "char": "🥭",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "red apple",
+        "char": "🍎",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "green apple",
+        "char": "🍏",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "pear",
+        "char": "🍐",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "peach",
+        "char": "🍑",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "cherries",
+        "char": "🍒",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "strawberry",
+        "char": "🍓",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "blueberries",
+        "char": "🫐",
+        "group": "Food & Drink"
+    },
+    {
+        "name": "glasses",
+        "char": "👓",
+        "group": "Objects"
+    },
+    {
+        "name": "sunglasses",
+        "char": "🕶️",
+        "group": "Objects"
+    },
+    {
+        "name": "sunglasses",
+        "char": "🕶",
+        "group": "Objects"
+    },
+    {
+        "name": "goggles",
+        "char": "🥽",
+        "group": "Objects"
+    },
+    {
+        "name": "lab coat",
+        "char": "🥼",
+        "group": "Objects"
+    },
+    {
+        "name": "safety vest",
+        "char": "🦺",
+        "group": "Objects"
+    },
+    {
+        "name": "necktie",
+        "char": "👔",
+        "group": "Objects"
+    },
+    {
+        "name": "t-shirt",
+        "char": "👕",
+        "group": "Objects"
+    },
+    {
+        "name": "jeans",
+        "char": "👖",
+        "group": "Objects"
+    },
+    {
+        "name": "scarf",
+        "char": "🧣",
+        "group": "Objects"
+    },
+    {
+        "name": "gloves",
+        "char": "🧤",
+        "group": "Objects"
+    },
+    {
+        "name": "coat",
+        "char": "🧥",
+        "group": "Objects"
+    },
+    {
+        "name": "socks",
+        "char": "🧦",
+        "group": "Objects"
+    },
+    {
+        "name": "dress",
+        "char": "👗",
+        "group": "Objects"
+    },
+    {
+        "name": "kimono",
+        "char": "👘",
+        "group": "Objects"
+    },
+    {
+        "name": "ATM sign",
+        "char": "🏧",
+        "group": "Symbols"
+    },
+    {
+        "name": "litter in bin sign",
+        "char": "🚮",
+        "group": "Symbols"
+    },
+    {
+        "name": "potable water",
+        "char": "🚰",
+        "group": "Symbols"
+    },
+    {
+        "name": "wheelchair symbol",
+        "char": "♿",
+        "group": "Symbols"
+    },
+    {
+        "name": "men’s room",
+        "char": "🚹",
+        "group": "Symbols"
+    },
+    {
+        "name": "women’s room",
+        "char": "🚺",
+        "group": "Symbols"
+    },
+    {
+        "name": "restroom",
+        "char": "🚻",
+        "group": "Symbols"
+    },
+    {
+        "name": "baby symbol",
+        "char": "🚼",
+        "group": "Symbols"
+    },
+    {
+        "name": "water closet",
+        "char": "🚾",
+        "group": "Symbols"
+    },
+    {
+        "name": "passport control",
+        "char": "🛂",
+        "group": "Symbols"
+    },
+    {
+        "name": "customs",
+        "char": "🛃",
+        "group": "Symbols"
+    },
+    {
+        "name": "baggage claim",
+        "char": "🛄",
+        "group": "Symbols"
+    },
+    {
+        "name": "left luggage",
+        "char": "🛅",
+        "group": "Symbols"
+    },
+    {
+        "name": "warning",
+        "char": "⚠️",
+        "group": "Symbols"
+    },
+    {
+        "name": "warning",
+        "char": "⚠",
+        "group": "Symbols"
+    },
+    {
+        "name": "globe showing Europe-Africa",
+        "char": "🌍",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "globe showing Americas",
+        "char": "🌎",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "globe showing Asia-Australia",
+        "char": "🌏",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "globe with meridians",
+        "char": "🌐",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "world map",
+        "char": "🗺️",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "world map",
+        "char": "🗺",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "map of Japan",
+        "char": "🗾",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "compass",
+        "char": "🧭",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "snow-capped mountain",
+        "char": "🏔️",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "snow-capped mountain",
+        "char": "🏔",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "mountain",
+        "char": "⛰️",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "mountain",
+        "char": "⛰",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "volcano",
+        "char": "🌋",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "mount fuji",
+        "char": "🗻",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "camping",
+        "char": "🏕️",
+        "group": "Travel & Places"
+    },
+    {
+        "name": "jack-o-lantern",
+        "char": "🎃",
+        "group": "Activities"
+    },
+    {
+        "name": "Christmas tree",
+        "char": "🎄",
+        "group": "Activities"
+    },
+    {
+        "name": "fireworks",
+        "char": "🎆",
+        "group": "Activities"
+    },
+    {
+        "name": "sparkler",
+        "char": "🎇",
+        "group": "Activities"
+    },
+    {
+        "name": "firecracker",
+        "char": "🧨",
+        "group": "Activities"
+    },
+    {
+        "name": "sparkles",
+        "char": "✨",
+        "group": "Activities"
+    },
+    {
+        "name": "balloon",
+        "char": "🎈",
+        "group": "Activities"
+    },
+    {
+        "name": "party popper",
+        "char": "🎉",
+        "group": "Activities"
+    },
+    {
+        "name": "confetti ball",
+        "char": "🎊",
+        "group": "Activities"
+    },
+    {
+        "name": "tanabata tree",
+        "char": "🎋",
+        "group": "Activities"
+    },
+    {
+        "name": "pine decoration",
+        "char": "🎍",
+        "group": "Activities"
+    },
+    {
+        "name": "Japanese dolls",
+        "char": "🎎",
+        "group": "Activities"
+    },
+    {
+        "name": "carp streamer",
+        "char": "🎏",
+        "group": "Activities"
+    },
+    {
+        "name": "wind chime",
+        "char": "🎐",
+        "group": "Activities"
+    },
+    {
+        "name": "moon viewing ceremony",
+        "char": "🎑",
+        "group": "Activities"
+    }
+]
