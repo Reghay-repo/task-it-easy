@@ -26,25 +26,25 @@ Task it easy primerely works using the IndexedDB API to persist and serach data 
 
 This session is dedicated to elaborate future features of task it easy
 
-##### **1. Electron support**
+##### **1. Desktop and mobile version**
 
-To be a true offline-first app, we need to get rid of browsers.
+A native vesion can improve the accessibility, user experience and the productvity.
 
 ##### **2. Task it easy server**
 
-A possible solution to share data is to have your own server. An easy-to-use CLI application that runs a server in the background that stores and serves data using endpoints can be a good idea. The implementations could be in many languages and have different approaches as long as it implements all endspoints needed.
+A possible solution for sharing data is to have your own server. An easy-to-use command-line interface (CLI) application that runs a server in the background and stores and serves data using endpoints could be a good idea. The implementation can be done in various programming languages and can have different approaches, as long as it implements all the necessary endpoints.
 
 ##### **3. Teams**
 
-Some task/project management services on web charges every person of the team to use their infrastructure. Using a common server for everyone is more cheap and effective.
+Some web-based task/project management services charge every member of a team to use their infrastructure. However, using a common server for everyone can be more cost-effective and efficient.
 
 ##### **4. Shared spaces**
 
-Sometimes you just need to share your space with someone, this could be a reality with a server.
+Sometimes, you may need to share your space with someone. This can be made possible with a server.
 
 ##### **5. Natural Processing Language for create tasks**
 
-Now creating tasks still easy, but it could be more pleasant to just write "Check this every Sunday" then task it easy understands everything.
+Creating tasks is still easy, but it would be more pleasant to simply write something like "Check this every Sunday" and have the task management tool understand it easily.
 
 ##### **6. Keyboard shortcuts**
 
@@ -54,7 +54,7 @@ Improving the produtivity and the user experience.
 
 Instead of implmenting and making PR's people could just write and realease their own plugins.
 
-##### **8. Calendar and Habits**
+##### **8. Calendar**
 
 Calendars are important piece of the workflow, a one place that centralize all your actions it's a really good idea.
 

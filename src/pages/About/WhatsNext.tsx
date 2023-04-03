@@ -12,25 +12,25 @@ export default function WhatsNext() {
                 <span className="text-base">Electron support, servers, plugins and more. This session is dedicated to elaborate future features of task it easy.</span>
                 <hr className="my-4" />
                 <div className="my-4 flex flex-col">
-                    <h2 className="mt-4 text-lg font-semibold">Electron support</h2>
-                    <span>To be a true offline-first app, we need to get rid of browsers.</span>
+                    <h2 className="mt-4 text-lg font-semibold">Desktop and mobile version</h2>
+                    <span className="text-base">A native vesion can improve the accessibility, user experience and the productvity.</span>
                     <h2 className="mt-4 text-lg font-semibold">Task it easy server</h2>
-                    <span>
-                        A possible solution to share data is to have your own server. An easy-to-use CLI application that runs a server in the background that stores and serves data using endpoints can be a good idea. The implementations could be in
-                        many languages and have different approaches as long as it implements all endspoints needed.
+                    <span className="text-base">
+                        A possible solution for sharing data is to have your own server. An easy-to-use command-line interface (CLI) application that runs a server in the background and stores and serves data using endpoints could be a good idea. The
+                        implementation can be done in various programming languages and can have different approaches, as long as it implements all the necessary endpoints.
                     </span>
                     <h2 className="mt-4 text-lg font-semibold">Teams</h2>
-                    <span>Some task/project management services on web charges every person of the team to use their infrastructure. Using a common server for everyone is more cheap and effective.</span>
+                    <span className="text-base">Some web-based task/project management services charge every member of a team to use their infrastructure. However, using a common server for everyone can be more cost-effective and efficient.</span>
                     <h2 className="mt-4 text-lg font-semibold">Shared spaces</h2>
-                    <span>Sometimes you just need to share your space with someone, this could be a reality with a server.</span>
+                    <span className="text-base">Sometimes, you may need to share your space with someone. This can be made possible with a server.</span>
                     <h2 className="mt-4 text-lg font-semibold">Natural Processing Language for create tasks</h2>
-                    <span>Now creating tasks still easy, but it could be more pleasant to just write "Check this every Sunday" then task it easy understands everything.</span>
+                    <span className="text-base">Creating tasks is still easy, but it would be more pleasant to simply write something like "Check this every Sunday" and have the task management tool understand it easily.</span>
                     <h2 className="mt-4 text-lg font-semibold">Keyboard shortcuts</h2>
-                    <span>Improving the produtivity and the user experience.</span>
+                    <span className="text-base">Improving the produtivity and the user experience.</span>
                     <h2 className="mt-4 text-lg font-semibold">Plugins Interface</h2>
-                    <span>Instead of implmenting and making PR's people could just write and realease their own plugins.</span>
-                    <h2 className="mt-4 text-lg font-semibold">Calendar and Habits</h2>
-                    <span>Calendars are important piece of the workflow, a one place that centralize all your actions it's a really good idea.</span>
+                    <span className="text-base">Instead of implmenting and making PR's people could just write and realease their own plugins.</span>
+                    <h2 className="mt-4 text-lg font-semibold">Calendar</h2>
+                    <span className="text-base">Calendars are important piece of the workflow, a one place that centralize all your actions it's a really good idea.</span>
                 </div>
                 <hr className="py-2" />
                 <h2 className="text-lg font-semibold">Wanna help?</h2>

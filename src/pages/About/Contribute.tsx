@@ -9,11 +9,10 @@ export default function Contribute() {
             <div className="flex max-w-4xl flex-col space-y-2">
                 <h1 className="text-3xl font-extrabold">Contributing</h1>
                 <span className="text-base">
-                    Task it easy is an open source project and needs people to write new solutions for the task management environment. More tech info are on our GitHub page{" "}
-                    <Link to="https://developer.mozilla.org/fr/docs/Web/API/IndexedDB_API" className="inline-block cursor-pointer text-skin-accent hover:underline">
+                    Task it easy is an open source project and needs people to write new solutions for the task management environment. Checkout the{" "}
+                    <Link to="https://github.com/costaluu/task-it-easy" className="inline-block cursor-pointer text-skin-accent hover:underline">
                         github page
-                    </Link>{" "}
-                    feel free to check it out and give a star.
+                    </Link>
                 </span>
                 <div className="flex w-full flex-row items-center py-12">
                     <Link to="/about/future/whats-next" className="link flex flex-row items-center space-x-2">
